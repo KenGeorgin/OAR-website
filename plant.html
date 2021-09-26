@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>OAR PLANT</title>
-       <link rel="icon" href="img/White on Black.png" type="image/gif" sizes="16x16"> 
+       <!--<link rel="icon" href="img/White on Black.png" type="image/gif" sizes="16x16"> -->
       <link rel="stylesheet" href="css/components.css">
       <link rel="stylesheet" href="css/responsee.css">
       <link rel="stylesheet" href="css/icons.css">
@@ -40,7 +40,7 @@
          <nav>
             <div class="line">
                <div class="s-4 l-2">
-                  <p class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></p>
+                  <p class="logo"><a href="index.html"><img src="img/logo.png"></p></a>
                </div>
                <div class="top-nav s-8 l-10">
                   <p class="nav-text"></p>
@@ -77,19 +77,19 @@
                      <style type="text/css">
                         a img{ 
                            width: 25%;
-                           height: 25%;
                         }
                      </style>
                      <div id="instafeed-container">
                      <!--getting feed from instagram, code taken from = https://github.com/ishithemes/instafeed_website/blob/master/index.html-->
 
-	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>-->
+   <script src="js/inst-feed.js"></script>
 	<script type="text/javascript">
 	var userFeed = new Instafeed({
 		get: 'oar.plant',
 		target: "instafeed-container",
     	resolution: 'low_resolution',
-		accessToken: 'IGQVJXeXJpNUVHMlJncVBONGcxVTdNODN2emU0UzFwZAXZAKSzVQQjFudTJTd1JNcVV2YmxIa3BnX3VCWC1KSVV5ZAEtURGhFUElZAVGFzRV9LTEJkTEJSczRhcm4xeTM3TVczS0lPZATl1Q2w2VTJnMFBBRgZDZD'
+		accessToken: 'IGQVJXeXJpNUVHMlJncVBONGcxVTdNODN2emU0UzFwZAXZAKSzVQQjFudTJTd1JNcVV2YmxIa3BnX3VCWC1KSVV5ZAEtURGhFUElZAVGFzRV9LTEJkTEJSczRhcm4xeTM3TVczS0lPZATl1Q2w2VTJnMFBBRgZDZD'      
 	});
 	userFeed.run();
 	</script>
