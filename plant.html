@@ -73,8 +73,27 @@
                <div class="margin">
                   <div class="s-12 m-12 l-12 ">
                      
-                     <h2 style="margin-top: 15px"><span class="icon-printer icon4x icon-color"></span>OAR Clients</h2>
-                     
+                     <h2 style="margin-top: 15px"><span class="icon-printer icon4x icon-color"></span>OUR MEMORIES</h2>
+                     <style type="text/css">
+                        a img{ 
+                           width: 25%;
+                           height: 25%;
+                        }
+                     </style>
+                     <div id="instafeed-container">
+                     <!--getting feed from instagram, code taken from = https://github.com/ishithemes/instafeed_website/blob/master/index.html-->
+
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'oar.plant',
+		target: "instafeed-container",
+    	resolution: 'low_resolution',
+		accessToken: 'IGQVJXeXJpNUVHMlJncVBONGcxVTdNODN2emU0UzFwZAXZAKSzVQQjFudTJTd1JNcVV2YmxIa3BnX3VCWC1KSVV5ZAEtURGhFUElZAVGFzRV9LTEJkTEJSczRhcm4xeTM3TVczS0lPZATl1Q2w2VTJnMFBBRgZDZD'
+	});
+	userFeed.run();
+	</script>
+   </div>                     
 <!-- <div class="s12 m-4 l-4 client" align="left">
   <img src="img/indoor2.jpg" alt="" class="">
   <h5 class="heading">Name of Company</h5>
@@ -82,7 +101,7 @@
 <div class="s12 m-4 l-4" align="left">th,jk</div>
 <div class="s12 m-4 l-4" align="left">th,jk</div> -->
 
-<div class="client">
+<!--<div class="client">
 <ul >
   <li>
     <img src="img/indoor2.jpg" alt="" class="">
@@ -192,7 +211,7 @@
   <p>www.companyName.com</p>
   </li>
 </ul>
-</div>
+</div>-->
 
 
 
