@@ -810,7 +810,10 @@ display: table;
 	background-image: url(../img/inner02.jpg) ;
 }
 .innerBanner04{
-	background-image: url(../img/inner03.jpg) !important;
+	background-image: url(../img/parkResized.jpg) !important;
+}
+.innerBanner05{
+	background-image: url(../img/City_Resized.jpg) ;
 }
 .innerBanner img{
 	width: 100%;
@@ -1059,3 +1062,6 @@ background-color: #9BB800 !important;
 	.innerpage ul{
 		list-style: disclosure-closed;
 	}
+.right{
+	float: right;
+}
