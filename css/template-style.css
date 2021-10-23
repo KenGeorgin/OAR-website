@@ -1073,8 +1073,6 @@ background-color: #9BB800 !important;
 .active a{
 	text-decoration: none;
 	color: #496301;
-}
-.active a:hover{
 	background: #cac8c8;
 	background-size: cover;
 	margin-right: 1165px;
