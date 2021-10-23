@@ -1069,23 +1069,10 @@ background-color: #9BB800 !important;
 	list-style: none;
 	font-family: 'Roboto',sans-serif;
 	font-size: 30px;
-	background: #cac8c8;
-	background-size: cover;
-	margin-right: 1165px;
-	border-radius: 30px;;
-	box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
 }
 .active a{
 	text-decoration: none;
 	color: #496301;
-}
-.active a:hover{
-	font-size: 30px;
-	background: #cac8c8;
-	background-size: cover;
-	margin-right: 1165px;
-	border-radius: 30px;;
-	box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
 }
 .clientimg img{
 	width: 100%;
