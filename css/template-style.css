@@ -1065,12 +1065,12 @@ background-color: #9BB800 !important;
 .right{
 	float: right;
 }
-.active{
+.home{
 	list-style: none;
 	font-family: 'Roboto',sans-serif;
 	font-size: 30px;
 }
-.active a{
+.home a{
 	text-decoration: none;
 	color: #496301;
 }
