@@ -815,9 +815,11 @@ display: table;
 .innerBanner05{
 	background-image: url(../img/City_Resized.jpg) ; 
 }
+.innerBanner06{
+	background-image: url(../img/fpik14.jpg) ; 
+}
 .innerBanner img{
 	width: 100%;
-	
 }
 .innerpageAbout{
 	background-color: #fff !important;
