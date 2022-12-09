@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--Custome style for the header section-->
+      <link rel="stylesheet" href="css/components.css">
+      <!--<link rel="stylesheet" href="css/rsp.css">-->
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+
+
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/template-scripts.js"></script> 
+      <title>OAR PLANT</title>
+       <style type="text/css">
+         a img{
+            width: 25%;
+           }
+         </style>
+      </head>
+      <body class="size-1140">
+<!--code for header-->
+<header>
+   <div id="topbar">
+      <div class="line">
+         <div class="s-12 m-6 l-6">
+            <p>CONTACT US: <strong>8129-502-302</strong> | <strong>oarplant@gmail.com</strong></p>
+         </div>
+         <div class="s-12 m-6 l-6">
+            <div class="social right">
+                <a href="https://www.facebook.com/OARplant/" target="_blank"><i class="icon-facebook_circle"></i></a>
+               <a href="https://twitter.com/OaRplant" target="_blank"><i class="icon-twitter_circle"></i></a>
+               <a href="https://www.instagram.com/oarfarm/" target="_blank"><i class="icon-instagram_circle"></i></a>
+               <a href="https://www.youtube.com/channel/UCWOjRQ3290s35NB0FK6CrPg/" target="_blank" class=""><i class="icon-play youtube"></i></a>
+            </div>
+         </div>
+      </div>  
+   </div> 
+   <nav>
+      <div class="line">
+         <div class="s-4 l-2">
+            <p class="logo"><a href="index.html"><img src="img/logo.png"></p></a>
+         </div>
+         <div class="top-nav s-8 l-10">
+            <p class="nav-text"></p>
+               <ul class="right">
+               <li class="active-item"><a href="index.html">Home</a></li>
+               <!--<li><a href="#features">How It Works</a></li>
+               <li><a href="#about-us">Our Story</a></li>
+               <li><a href="#our-work">Gallery</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul> --> 
+         </div>
+      </div>
+   </nav>
+</header> 
+<!--Code to set alignment and section for the body and header-->
+<section>
+   <!-- CAROUSEL --> 
+   <div class="innerBanner innerBanner05"></div>
+   
+   <!-- FEATURES -->
+   <div id="features" class="innerpage">
+      <div class="line">
+         <div class="margin">
+            <div class="s-12 m-12 l-12 ">
+               
+               <h2 style="margin-top: 15px"><span class="icon-printer icon4x icon-color"></span>OAR PHOTOS</h2>
+             </div>
+         </div>
+         </div>
+         </div>
+         </section>
+
+         <div id="instafeed-container">
+
+
+
+         <script src="js/inst-feed.js"></script>
+         <script type="text/javascript">
+         var userFeed = new Instafeed({
+            get: 'oar.plant',
+            target: "instafeed-container",
+    	resolution: 'standard_resolution',
+       limit: 9,
+		accessToken: 'IGQVJXeXJpNUVHMlJncVBONGcxVTdNODN2emU0UzFwZAXZAKSzVQQjFudTJTd1JNcVV2YmxIa3BnX3VCWC1KSVV5ZAEtURGhFUElZAVGFzRV9LTEJkTEJSczRhcm4xeTM3TVczS0lPZATl1Q2w2VTJnMFBBRgZDZD'
+	});
+	userFeed.run();
+	</script>
+         </div>
+
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="line">
+        <div class="s-12 l-6">
+            <p>Copyright 2019, OAR Plant</p>
+
+        </div>
+        <div class="s-12 l-6">
+            <!--<a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>-->
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/responsee.js"></script>
+<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        var theme_slider = $("#owl-demo");
+        var owl = $('#owl-demo');
+        owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 6000
+        });
+        var owl = $('#owl-demo2');
+        owl.owlCarousel({
+            nav: true,
+            dots: false,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007", "&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 4000
+        });
+
+        var owl = $('#owl-demo3');
+        owl.owlCarousel({
+            nav: false,
+            dots: false,
+            items: 1,
+            loop: true,
+            navText: false,
+            autoplay: true,
+            autoplayTimeout: 4000
+        });
+        // Custom Navigation Events
+        $(".next-arrow").click(function () {
+            theme_slider.trigger('next.owl');
+        })
+        $(".prev-arrow").click(function () {
+            theme_slider.trigger('prev.owl');
+        })
+    });
+</script>
+      </body>
+      </html>
+
+      
